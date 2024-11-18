@@ -16,7 +16,7 @@ jobs:
       - name: Send post
         run: npm start
         env:
-          BSKY_HANDLE: ravensbot.bsky.social
+          BSKY_HANDLE: "ravensbot.bsky.social"
           BSKY_PASSWORD: ${{ secrets.RAVENS_BSKY_PASSWORD }}
           MASTODON_HANDLE: "@ravens@sportsbots.xyz"
           MASTODON_ACCOUNT_ID: "109700148957607619"
