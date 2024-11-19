@@ -1,7 +1,7 @@
 name: "Premier League Bot"
 on:
   schedule:
-    - cron: "*/12 0-7,14-23 * * *"
+    - cron: "*/5 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
